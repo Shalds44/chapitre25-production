@@ -1,7 +1,5 @@
-const path = require('path')
-
 module.exports = {
     dbUrl: 'mongodb://localhost/twitter?authSource=admin',
-    cert: path.join(__dirname, ''),
-    key: path.join(__dirname, '')
+    cert: '/etc/letsencrypt/live/www.formatech.site/fullchain.pem',
+    key: '/etc/letsencrypt/live/www.formatech.site/privkey.pem'
 }
