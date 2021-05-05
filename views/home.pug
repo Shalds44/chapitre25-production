@@ -1,0 +1,16 @@
+extends layout.pug 
+
+block content
+    div(class="d-flex flex-column, align-items-center justify-content-center" style="height:100vh")
+        h1 Chapter form
+        form(class="d-flex flex-column card w-50")
+            div(class="card-body")
+                div(class="form-group")
+                    label Title
+                    input(class="form-control" type="text")
+                div(class="form-group")
+                    label Number Of Lesson
+                    input(class="form-control" type="number")
+                div(class="form-group")
+                    input(class="form-control" type="number")
+                    label(class="form-check-label") active
